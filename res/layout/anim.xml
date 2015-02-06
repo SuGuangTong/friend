@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:gravity="center" 
+    android:background="#000000">
+    <Button 
+        android:id="@+id/zan"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="赞"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+    <Button 
+        android:id="@+id/ping"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="评论"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+    
+
+</LinearLayout>
